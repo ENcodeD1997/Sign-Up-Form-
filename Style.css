@@ -1,0 +1,26 @@
+:root{
+    --color: #e6007e;
+    --txt: rgb(185, 185, 185)
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    color: var(--txt);
+
+    /*note: outline 1px solid red*/
+
+}
+
+.content {
+    width: 100vw;
+    height: 100Vh;
+}
+
+.content,
+.logo{
+    display: flex;
+    flex-flow:row wrap ;
+}
