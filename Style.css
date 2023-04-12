@@ -53,3 +53,12 @@ h1{
     height: 10vh;
 }
 
+/*right*/ /*right-side of content right of logo*/ 
+
+.right {
+    width: 60vw;
+    background-color: #000000;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
