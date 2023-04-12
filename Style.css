@@ -24,3 +24,14 @@
     display: flex;
     flex-flow:row wrap ;
 }
+
+
+/*left*/
+
+.background {
+    background-image: url(./assets/lexi-laginess-YcUTOrKNTvg-unsplash.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
