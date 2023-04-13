@@ -89,3 +89,22 @@ h1{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+/*input*/ 
+
+.input{
+    text-align: left;
+    width: auto;
+    font-size: 0.9em;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    font-size: 0.9rem;
+    height: 1.5rem;
+    width: 70vw;
+}
+
+
