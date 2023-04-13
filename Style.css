@@ -90,6 +90,12 @@ h1{
     padding-bottom: 20px;
 }
 
+.form-title {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 /*input*/ 
 
 .input{
@@ -98,7 +104,18 @@ h1{
     font-size: 0.9em;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 50%;
 
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid var(--color);
 }
 
 input{
@@ -107,4 +124,23 @@ input{
     width: 70vw;
 }
 
+.button,
+.log-in{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--color);
+    margin-bottom: 0px;
+    width: 60vw;
+    padding: 10px 5px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0;
+}
 
