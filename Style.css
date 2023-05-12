@@ -31,7 +31,7 @@
 .background {
     background-image: url(./assets/lexi-laginess-YcUTOrKNTvg-unsplash.jpg);
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 40vw;
 }
@@ -68,7 +68,7 @@ h1{
 
 }
 
-.psheudo-text-left {
+.pseudo-text-left {
     font-weight: 500;
     width: 90%;
     font-size: 1.2rem;
@@ -121,7 +121,9 @@ input:focus{
 input{
     font-size: 0.9rem;
     height: 1.5rem;
-    width: 70vw;
+    width: 50vw;
+    border-radius: 15px;
+    margin: 5px;
 }
 
 .button,
