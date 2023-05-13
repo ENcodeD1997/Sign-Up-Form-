@@ -50,7 +50,7 @@ h1{
 }
 
 .smile {
-    height: 10vh;
+    height: 20vh;
 }
 
 /*right*/ /*right-side of content right of logo*/ 
@@ -126,6 +126,8 @@ input{
     width: 50vw;
     border-radius: 15px;
     margin: 5px;
+    text-align: center;
+    color: black;
 }
 
 .button,
