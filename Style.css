@@ -1,5 +1,5 @@
 :root{
-    --color: #e6007e;
+    --color: #1600a3;
     --txt: rgb(185, 185, 185)
 }
 
@@ -168,6 +168,12 @@ a:hover{
         flex-flow: column;
         height: auto;
         text-align: center;
+    }
+    .smile{
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        background-size: 100vw;
     }
 }
     
