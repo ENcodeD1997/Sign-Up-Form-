@@ -67,7 +67,7 @@ h1{
     
 }
 
-.pseudo-text-left {
+.pseudo-text {
     font-weight: 500;
     width: 90%;
     font-size: 1.2rem;
@@ -171,9 +171,51 @@ a:hover{
     }
     .smile{
         width: 100vw;
+        position: static;
+        gap: 10px;
+    }
+    .background{
+        width: 100vw;
         height: 15vh;
         display: flex;
         background-size: 100vw;
     }
+    .right{
+        width: auto;
+        width: auto;
+    }
+    .pseudo-text{
+        width: auto;
+        margin-top: 30px;
+    }
+    .left{
+        padding: 10px 20px;
+    }
+    .remote-text{
+        padding: 20px 0;
+        margin: 0;
+    }
+    .form{
+        flex-flow: column nowrap;
+        align-items: center;
+
+    }
+    input{
+        font-size: 0.9rem;
+        height: 1.5rem;
+        width: 70vw;
+    }
+    .button,
+    .log-in{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    button{
+        margin-bottom: 0px;
+        width: 60vw;
+        padding: 10px 5px;
+    }
+
 }
     
