@@ -83,7 +83,7 @@ h1{
 
 .form {
     background-color: rgb(6, 6, 6);
-    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    box-shadow: 0 10px 20px -12px rgb(42, 9, 203);
     display: flex;
     flex-flow: row wrap;
     gap: 20px;
@@ -138,7 +138,7 @@ input{
 
 button{
     background-color: rgba(0, 0, 0, 0);
-    color: var(--color);
+    color: whitesmoke;
     font-weight: 700;
     font-size: 1.2em;
     border: 2px solid var(--color);
@@ -149,7 +149,8 @@ button{
 
 button:hover{
     background-color: var(--color);
-    color: #000000;
+    transition: 1.5s;
+    color: purple;
 }
 
 .log-in-left {
@@ -162,10 +163,13 @@ a{
     text-decoration: none;
     color: var(--color);
     font-weight: 700;
+    border-radius: 2px;
+    
 }
 
 a:hover{
-    color: black;
+    color: purple;
+    transition: 1.5s;
 }
 
 @media only screen and (max-width: 600px) {
